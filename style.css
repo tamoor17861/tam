@@ -150,7 +150,7 @@ p{
 }
 .course-col{
     flex-basis: 31%;
-    background: #883aa1;
+    background: rgba(226,0,0,0.7);
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -174,4 +174,67 @@ h3{
     .row{
         flex-direction: column;
     }
+    
+
+}
+.course{
+    background-color: #dcb4b4;
+    width: 100%;
+}
+/*My projects*/
+.myProjects{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+
+}
+.myProjects-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.myProjects-col img{
+    width: 100%;
+    display: block;
+}
+.layer{
+    
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    transition: 0.5s;
+    
+    
+}
+.layer:hover{
+    background: rgba(169, 95, 95, 0.7);
+
+}
+.myProjects{
+    background-color: #dcb4b4;
+    width: 100%;
+    font-size: 30px;
+}
+.layer h4{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 35px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    color: #020202;
+    transition: 0.5s;
+    opacity: 0;
+}
+.layer:hover h4{
+    bottom: 49%;
+    opacity: 1;
+
 }
