@@ -11,8 +11,8 @@
     <section class="header"> 
         <nav>
             <a href="index.html"><img src="images/b7088476fb7ce582289bbbd8a15a720f.jpg"></a>
-              <div class="nav-links">
-            <i class="fa fa-times" ></i>
+              <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()" ></i>
             <ul>
                 <li><a href="">HOME</a></li>>
                 <li><a href="">ABOUT</a></li>>
@@ -22,7 +22,7 @@
 
             </ul>
         </div>
-        <i class="fa fa-bars" ></i>
+        <i class="fa fa-bars" onclick="showMenu()" ></i>
 
         </nav>
     <div class="text-box">
@@ -33,6 +33,44 @@
         
     </section>
     
+    <section class="course"> 
+        
+        <h1>Education I have done.</h1>
+        <p>I have done Bachelors in Computer Science</p>
+
+<div class="row">
+    <div class="course-col">
+        <h3>Schooling</h3>
+        <p>The chair sat in the corner where it had been for over 25 years. The only difference was there was someone actually sitting in it. How long had it been since someone had done that? Ten years or more he imagined. Yet there was no denying the presence in the chair now.</p>
+    </div>
+    <div class="course-col">
+        <h3>Intermediate</h3>
+        <p>The chair sat in the corner where it had been for over 25 years. The only difference was there was someone actually sitting in it. How long had it been since someone had done that? Ten years or more he imagined. Yet there was no denying the presence in the chair now.</p>
+    </div>
+    <div class="course-col">
+        <h3>Degree</h3>
+        <p>The chair sat in the corner where it had been for over 25 years. The only difference was there was someone actually sitting in it. How long had it been since someone had done that? Ten years or more he imagined. Yet there was no denying the presence in the chair now.</p>
+    </div>
+</div>
+
+
+
+
+    </section>
+
+    
+    
+
+ <script>
+    //javascript for toggle menu
+    var navLinks = document.getElementById("navLinks");  
+    function showMenu(){
+        navLinks.style.right = "0";
+    }  
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    </script>
 </body>
 
 </html>
