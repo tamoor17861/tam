@@ -212,18 +212,18 @@ h3{
     
 }
 .layer:hover{
-    background: rgba(169, 95, 95, 0.7);
+    background: rgba(255, 255, 255, 0.7);
 
 }
 .myProjects{
-    background-color: #dcb4b4;
+    background-color: #b76262;
     width: 100%;
     font-size: 30px;
 }
 .layer h4{
     width: 100%;
     font-weight: 500;
-    color: #fff;
+    color: #dcd2d2;
     font-size: 35px;
     bottom: 0;
     left: 50%;
@@ -237,4 +237,127 @@ h3{
     bottom: 49%;
     opacity: 1;
 
+}
+.contact{
+    background-color: #c5bebe;
+    
+    
+}
+.contact h2{
+    margin-bottom:3rem;
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    
+}
+.contact form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin: 0;
+    text-align: center;
+
+
+}
+.contact form .input-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact form .input-box input,
+.contact form textarea{
+    width: 60%;
+    padding: 1rem;
+    font-size: 1.8rem;
+    color: rgb(255, 255, 255);
+    background: #8b8686;
+    border-radius: 2rem;
+    border: 2px solid #000000;
+    resize: none;
+    margin: 1.5rem 0;
+}
+.contact form .btn{
+    margin-top: 2rem;
+
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    border: none;
+    padding: 0 56px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 7px;
+    background-color: #1b1c1e;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    box-shadow: 0 4px 14px 0 rgba(5, 6, 6, 0.39);
+    transition: background 0.2s ease,color 0.2s ease,box-shadow 0.2s ease;
+    :hover{
+        background: rgba(11, 11, 12, 0.9);
+        box-shadow: 0 6px 20px rgb(0 118 255 / 23%);
+    }
+    
+}
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    padding: 40px 0;
+    background-color: #2f2d2d;
+
+}
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: #00ffee;
+}
+.footer .social a{
+    font-size: 25px;
+    color: #83a2a0;
+    border: 2px solid #7d9897;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: 0.3s easy-in-out;
+}
+.footer .social a:hover{
+    transform: scale(1,2)translateY(-10px);
+    background-color: #dee2e2;
+    color: #020202;
+    box-shadow: 0 0 25px #00ffee;
+}
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+.footer ul li a{
+    color: #fff;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease-in-out;
+
+}
+.footer ul li a:hover{
+    border-bottom: 3px solid #00ffee;
+}
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+
+}
+.footer .copyright{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
 }
